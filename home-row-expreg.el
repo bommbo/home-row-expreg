@@ -140,9 +140,9 @@
 ;;  Cleanup
 ;; ---------------------------------------------------------------------------
 (defun home-row-expreg--cleanup ()
-  (mapc #'delete-overlay home-row-expreg--overlays)
+  "Delete all letter overlays."
+  (mapc #'delete-overlay (flatten-list home-row-expreg--overlays))
   (setq home-row-expreg--overlays nil))
-
 ;; ---------------------------------------------------------------------------
 ;;  Minor mode (optional)
 ;; ---------------------------------------------------------------------------
