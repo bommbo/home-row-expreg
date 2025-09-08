@@ -4,6 +4,7 @@ Select expansion regions with **single home-row letters** — no numbers, no RET
 
 ## Usage
 
+```
 (use-package expreg
   :straight t
   :defer t)
@@ -14,3 +15,4 @@ Select expansion regions with **single home-row letters** — no numbers, no RET
                    :files ("*.el"))
   :after expreg
   :bind (("M-=" . home-row-expreg-expand-with-letters))
+```
