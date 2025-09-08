@@ -11,8 +11,7 @@ Select expansion regions with **single home-row letters** — no numbers, no RET
 
 (use-package home-row-expreg
   :straight (:host github
-                   :repo "yourid/home-row-expreg"
-                   :files ("*.el"))
+                   :repo "bommbo/home-row-expreg")
   :after expreg
   :bind (("M-=" . home-row-expreg-expand-with-letters))
 ```
