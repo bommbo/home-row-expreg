@@ -2,13 +2,13 @@
 
 Select expansion regions with **single home-row letters** — no numbers, no RET.
 
-## Usage
+## Dependencies
 
-```
-(use-package expreg
-  :straight t
-  :defer t)
+- [expreg](https://github.com/casouri/expreg/)
 
+## Installation
+
+```elisp
 (use-package home-row-expreg
   :straight (:host github
                    :repo "bommbo/home-row-expreg"
