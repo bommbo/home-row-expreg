@@ -15,7 +15,7 @@ Select expansion regions with **single home-row letters** — no numbers, no RET
 				   :files ("*.el"))
   :after expreg
   :demand t
-  :custom
+;; :custom
 ;; corlor
 ;;  (home-row-expreg-label-color "#FF6B6B")
 
