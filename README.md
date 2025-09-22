@@ -28,5 +28,6 @@ Select expansion regions with **single home-row letters** — no numbers, no RET
 
 ;;  (setq home-row-expreg-ergo-keys (number-sequence ?a ?z))
   :bind
-;;  ("C-c =" . home-row-expreg-expand-with-letters))
+;;  ("C-c =" . home-row-expreg-expand-with-letters)
+)
 ```
